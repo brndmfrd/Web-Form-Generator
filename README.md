@@ -5,6 +5,7 @@ Uses the following
     MongoDb v2.6.12
     Express JS v4.15.4
     Angular JS v1.6.5
+    Morgan 1.8.2
 
 == Setup ==
 # Use NPM to install Express JS
@@ -38,3 +39,6 @@ Uses the following
 
 # Set mongo to start when system starts
     sudo chkconfig mongod on
+
+# Install Morgan (logger)
+    npm install morgan --save
