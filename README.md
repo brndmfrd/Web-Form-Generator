@@ -18,6 +18,12 @@ Uses the following
 # Use NPM to install Angular JS
     npm install angular --save
 
+# Use NPM to install BodyParser
+    npm install body-parser
+
+# Use NPM to install Mongoose 
+    npm install mongoose
+
 # SELinux permission for mongo
     sudo yum provides semanage
     sudo yum -y install policycoreutils	

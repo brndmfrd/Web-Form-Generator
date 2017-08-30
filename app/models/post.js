@@ -2,8 +2,12 @@
 // This is our api model that connects us to mongoose (see /db.js)
 var db = require('../db')
 var Post = db.model('Post', {
-  DUMMY1: { type: String, required: true},       //00, 01, ..., 78
-  DUMMY2: { type: String, required: true }       // in/out
+  part_name: { type: String, required: true},       
+  cost_per_unit: { type: String, required: true },    
+  part_description: { type: String, required: true },
+  vendor_name: { type: String, required: true },
+  vendor_address: { type: String, required: true },
+  vendor_phone: { type: String, required: true }    
 });
 module.exports = Post
 
